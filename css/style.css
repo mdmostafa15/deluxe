@@ -21,9 +21,14 @@ body{
 }
 /*end include font*/
 /*start header css*/
-.wraper{
+header{
     background-color: #2a2e33;
-    height: 100px;
+    min-height: 100px;
+}
+.header-contain{
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .logo{
     width: 36%;
@@ -44,7 +49,7 @@ body{
     color: #bcbdbe;
 }
 .nav{
-    width: 57%;
+    width: 64%;
     float: right;
     overflow: hidden;
 }
@@ -81,12 +86,17 @@ body{
     min-height: 460px;
     font-family: 'Quicksand', sans-serif;
 }
+.banner-contain{
+    width: 1180px;
+    margin: 0 auto;
+}
 .banner{
     position: relative;
 }
 .banner-text{
     text-align: center;
     padding: 25px 0px;
+    overflow: hidden;
 }
 .banner-text h3{
     font-weight: 400;
@@ -114,6 +124,7 @@ body{
     right: 0;
     position: absolute;
     margin: 48px auto;
+    overflow: hidden;
 }
 .single-form label{
     color: #ffd700;
@@ -145,7 +156,7 @@ body{
 }
 .btn{
     float: left;
-    padding: 30px 10px;
+    padding: 31px 10px 0px 10px;
 }
 .btn button{
     font-family: "DroidSans";
@@ -166,6 +177,8 @@ body{
     min-height: 500px;
 }
 .package{
+    width: 1180px;
+    margin: 0 auto;
     text-align: center;
     overflow: hidden;
     display:block;
@@ -212,6 +225,8 @@ body{
     min-height: 790px;
 }
 .room-type{
+    width: 1180px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
@@ -229,7 +244,13 @@ body{
     padding: 0px 18px;
     text-align: center;
 }
+
 .bedimg{
+    width: 380px;
+    height:  180px;
+    overflow: hidden;
+}
+.bedimg img{
     width: 100%;
 }
 .icon-room{
@@ -243,6 +264,8 @@ body{
     min-height: 185px;
 }
 .facility{
+    width: 1180px;
+    margin: 0 auto;
     position: relative;
 }
 .facility-text{
@@ -266,7 +289,7 @@ body{
     position: absolute;
 /*    left: 0;*/
     right: 0;
-    top: -100px;
+    top: -99px;
 }
 .facility span{}
 /*end facility css*/
@@ -279,7 +302,12 @@ footer{
     
 }
 .footer-contain{
-    text-align: center;
+   
+    width: 1180px;
+    margin: 0 auto;     
+}
+.footer{
+    padding: 20px 0px;
 }
 .common{
     float: left;
@@ -301,7 +329,7 @@ footer{
     padding: 5px 0px;
 }
 .about-hotel{
-    width:22%;
+    width:260px;
     
     font-size: 17px;
     font-weight: normal;
@@ -310,12 +338,12 @@ footer{
 
 }
 .latest-news{
-    width: 16%;
+    width: 188px;
     font-weight: normal;
     font-size: 17px;
 }
 .join-deluxe{
-    width: 38%;
+    width: 412px;
    
     font-size: 17px;
 }
@@ -329,7 +357,7 @@ footer{
     text-transform: uppercase;
 }
 .member-sheep{
-    width: 20%;
+    width: 236px;
     font-size: 17px;
 }
 .member-sheep label{
