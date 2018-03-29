@@ -3,35 +3,33 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 /*font-family: 'Quicksand', sans-serif;*/
-html{
-    min-height:1100px;
-    overflow:hidden:
-}
 .wrap{
-    width: 90%;
+    width: 1133px;
     margin: 0 auto;
+}
+html{
+    min-width: 1150px;
 }
     /*start include font */
 /*code for internal font/web font*/
 
 @font-face{
-    font-family:"DroidSan";
-    src:url(../css/font/DroidSans-Bold.ttf);
-    font-weight:bold;
-}
+            font-family:'ARDECODE';
+            src:url(font/ARDECODE.ttf);
+        }
 @font-face{
-    font-family:'ARDECODE';
-    src:url(../css/font/ARDECODE.ttf);
-}
+            font-family:'DroidSans-Bold';
+            src:url(font/DroidSans-Bold.ttf);
+        }
 /*end include font*/
+
 /*start header css*/
 header{
     background-color: #2a2e33;
     min-height: 100px;
 }
 .header-contain{
-    width: 1133px;
-    margin: 0 auto;
+
     overflow: hidden;
 }
 .logo{
@@ -150,8 +148,8 @@ header{
 }
 .single-form{
     float: left;
-/*    width: 260px;*/
-    padding: 10px;
+    padding: 14px 10px;
+    overflow: hidden;
 }
 .single-form input{
     background-image: url(../images/calendar.png);
@@ -163,9 +161,13 @@ header{
     border-radius: 10px;
     border: none;
 }
+.btn-cont{
+    padding: 14px 0px;
+    overflow: hidden;
+}
 .btn{
     float: left;
-    padding: 31px 10px 0px 10px;
+    padding: 22px 10px 0px 10px;
 }
 .btn button{
     font-family: "DroidSans";
