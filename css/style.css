@@ -3,6 +3,10 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 /*font-family: 'Quicksand', sans-serif;*/
+html{
+    min-height:1100px;
+    overflow:hidden:
+}
 .wrap{
     width: 90%;
     margin: 0 auto;
