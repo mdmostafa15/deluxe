@@ -135,7 +135,7 @@ header{
 }
 .single-form select{
     font-size: 18px;
-    padding: 15px 30px;
+    padding: 14px 30px;
     width: 260px;
     border-radius: 10px;
     border:none;
@@ -148,7 +148,7 @@ header{
 }
 .single-form{
     float: left;
-    padding: 14px 10px;
+    padding: 12px 10px;
     overflow: hidden;
 }
 .single-form input{
