@@ -15,11 +15,11 @@ html{
 
 @font-face{
             font-family:'ARDECODE';
-            src:url(font/ARDECODE.ttf);
+            src:url(../font/ARDECODE.ttf);
         }
 @font-face{
-            font-family:'DroidSans-Bold';
-            src:url(font/DroidSans-Bold.ttf);
+            font-family:'DroidSans';
+            src:url(../font/DroidSans-Bold.ttf);
         }
 /*end include font*/
 
@@ -49,6 +49,7 @@ header{
     font-size: 14px;
     display: block;
     color: #bcbdbe;
+    font-weight: 400;
 }
 .nav{
     width: 64%;
@@ -99,6 +100,7 @@ header{
     text-align: center;
     padding: 25px 0px;
     overflow: hidden;
+    color:white;
 }
 .banner-text h3{
     font-weight: 400;
@@ -106,18 +108,18 @@ header{
     padding: 25px 0px;
 }
 .banner-text h1{
+    font-family: 'DroidSans';
     font-weight: bold;
     font-size: 60px;
     padding: 30px 0px;
 }
 .banner-text h2{
-    font-weight: bold;
+    font-weight: 400;
     font-size: 30px;
     padding: 25px 0px;
 }
 .view-price{
-    font-family: 'QuickSand', sans-serif;
-    font-weight: 300;
+    
     font-size: 18px;
     background-color: #2a2e33;
     min-height: 100px;
@@ -129,13 +131,14 @@ header{
     overflow: hidden;
 }
 .single-form label{
+    font-weight: 300;
     color: #ffd700;
     padding: 10px;
     
 }
 .single-form select{
     font-size: 18px;
-    padding: 14px 30px;
+    padding: 15px 30px;
     width: 260px;
     border-radius: 10px;
     border:none;
@@ -147,8 +150,9 @@ header{
     background-position: 10px 23px;
 }
 .single-form{
+    font-weight: 300;
     float: left;
-    padding: 12px 10px;
+    padding: 14px 10px;
     overflow: hidden;
 }
 .single-form input{
@@ -157,6 +161,7 @@ header{
     background-position: 10px;
     padding: 15px 30px;
     font-size: 18px;
+    color: #9c9da0;
     width: 230px;
     border-radius: 10px;
     border: none;
@@ -194,6 +199,7 @@ header{
     overflow: hidden;
     display:block;
     padding: 88px 0px 0px;
+    color: #3f4143;
 }
 .package h1{
     font-family: 'ARDECODE' ;
@@ -239,6 +245,7 @@ header{
     width: 1133px;
     margin: 0 auto;
     overflow: hidden;
+     color: #3f4143;
 }
 
 .roomheading{
@@ -336,6 +343,7 @@ footer{
 }
 .common h2{
     text-transform: uppercase;
+    font-family: 'DroidSans'';
 }
 .common p{
     font-size: 12px;
